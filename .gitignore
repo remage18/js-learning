@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+
+# ESLint cache file
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local Zed workspace settings
+.zed/
