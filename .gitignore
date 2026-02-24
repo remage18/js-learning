@@ -16,5 +16,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Local Zed workspace settings
-.zed/
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
