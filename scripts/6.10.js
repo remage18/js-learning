@@ -91,3 +91,9 @@ let user = {
 // askPassword(?, ?);
 // When calling bind, we can also specify a list of arguments that will be used as default values.
 askPassword(user.login.bind(user, true), user.login.bind(user, false));
+
+// or just use arrow function
+askPassword(
+    () => user.login(true),
+    () => user.login(false),
+);
